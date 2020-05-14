@@ -1,0 +1,49 @@
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+      border-top: 12px solid black;
+    }
+    .navbar-custom{
+      background-color: green !important;
+    }
+
+    .navbar > a {
+      color: black !important;
+    }
+
+    .logo{
+      font-size: 31px;
+      font-family: italic;
+    }
+    .login-logo{
+      width: 200px;
+      margin-left: 30%;
+    }
+    
+    /* change the bg of the website*/
+    body{
+      background-color: black;
+    }
+
+    .well-custom{
+      border-radius: 5px;
+      background-color: white;
+    }
+
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+    
+  .caption {
+
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
